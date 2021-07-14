@@ -1,0 +1,86 @@
+h1{
+    font-family: trebuchet ms;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 45px;
+    transition: all .2s ease-in-out;
+  animation: colorRotate 5s linear 0s infinite;
+}
+.activeColor {
+    animation: colorRotate 5s linear 0s infinite;
+}
+
+@keyframes colorRotate {
+  from {
+    color: #6666ff;
+  }
+  10% {
+    color: #0099ff;
+  }
+  50% {
+    color: #00ff00;
+  }
+  75% {
+    color: #ff3399;
+  }
+  100% {
+    color: #6666ff;
+  }
+}
+p{
+    font-family: trebuchet ms;
+    font-weight: lighter;
+    color: white;
+    text-align: center;
+    font-size: 33px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    transition: all .2s ease-in-out;
+}
+h3{
+    font-family: trebuchet ms;
+    color: yellow;
+    font-weight: lighter;
+    width: 50%;
+    transition: all .2s ease-in-out;
+}
+a{
+    font-size: 20px;
+    min-height: 38px;
+    padding-top: 10px;
+    color:black;
+    background-color: rgb(57 148 255);
+    font-family: trebuchet ms;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    height: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+        border: white;
+        display: inline-block;
+        transition: all .2s ease-in-out;
+        font-weight: bold;
+        margin-top: 50px;
+}
+a:hover{
+    cursor: pointer;
+    background-color: rgb(11 121 251);
+}
+div{
+    text-align: right;
+}
+h6{
+  font-family: trebuchet ms;
+  text-decoration: none;
+  display: block;
+  font-size: 20px;
+  transition: all .2s ease-in-out;
+  text-align: left;
+  }
