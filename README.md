@@ -1,2 +1,2 @@
-# Website
-Trying to create a website for my discord server
+if you got any issues feel free to pull request
+And respect my rights that's all
